@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APOD</title>
+    <script src="script.js" defer ></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="Js/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="aseets/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <a href="index.html"><img src="aseets/logo.png" width="50px"></a>
+        
+        <div>
+            <img src="aseets/letra.png" width="400px">
+        </div></div>
+        <ul>
+            <li><a href="https://github.com/IplinskyLeo/APOD-NASA">Repositório</a></li>
+            <li><a href="https://iplinskyleo.github.io/portifolio/">Portifólio</a></li>
+            <li><a href="https://www.nasa.gov">Nasa</a></li>
+        </ul>
+    </header>
+
+<main>
+    <section class="section">
+        <div id="entrada">
+            <div>
+                <h1 class="titulo">Foto Astronômica do Dia!</h1>
+                <h4 class="semiTitulo">Selecione abaixo um dia, e veja uma foto tirada neste dia:</h4>
+            </div>
+            <form action="" id="form">
+                <input type="date" name="data" class="data" required>
+                <input type="submit" class="botao">
+            </form>
+            <div class="imagem">
+                <img class="apod" src="aseets/load.gif" width="300px">
+            </div>
+        </div>
+            <div>
+                <div class="meio"></div>
+            </div>
+
+        <div id="saida">
+            <h3 class="trans">Aqui você poderá ver uma breve explicação acerca da fotografia capturada no dia escolhido. (Em português)</h3>
+        </div>
+    </section>
+
+    <section id="saida2">
+        <h3 class="info">Here, you can see an explanation about the picture of the day. (English)</h3>
+    </section>
+
+</main>
+
+    <audio src="aseets/audio.mp3" autoplay loop type="audio/mp3"></audio>
+
+</body>
+</html>
