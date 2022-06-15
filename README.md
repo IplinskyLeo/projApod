@@ -1,5 +1,5 @@
-# Astronomy Picture of the Day!
-🚀🌌Foto Astronômica do Dia!🌠🚀
+# 🚀🌌Foto Astronômica do Dia!🌠🚀
+Astronomy Picture of the Day!
 
 ![image](https://i.imgur.com/WgU0to4.png)
 
